@@ -1,11 +1,12 @@
 {
   "name": "simple-todos",
-  "private": true,
+  "engines": {
+    "node": "0.10.20"
+  },
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "node": "0.10.20",
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.2.0",
     "react-dom": "^15.2.0"
